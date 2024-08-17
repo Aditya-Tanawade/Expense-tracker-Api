@@ -29,7 +29,7 @@ Apart from this, we have used JSON Web Token (JWT) to add authentication. Using 
 
 1. **Clone the repo from GitHub**
    ```sh
-   git clone https://github.com/Vikashkatiyar/Expense-tracker-Api.git
+   git clone https://github.com/Aditya-Tanawade/Expense-tracker-Api.git
    cd expense-tracker-api
    ```
 
@@ -41,9 +41,9 @@ Apart from this, we have used JSON Web Token (JWT) to add authentication. Using 
    
    If your database is hosted at some cloud platform or if you have modified the SQL script file with some different username and password, update the src/main/resources/application.properties file accordingly:
    ```properties
-   spring.datasource.url=jdbc:postgresql://localhost:5432/expensetrackerdb
-   spring.datasource.username=expensetracker
-   spring.datasource.password=password
+   spring.datasource.url=jdbc:postgresql://localhost:5432/Your_dbName
+   spring.datasource.username=Your_userName
+   spring.datasource.password=Your_Password
    ```
 5. **Run the spring boot application**
    ```sh
